@@ -1,0 +1,38 @@
+body {
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/10307.jpg);
+    background-color: rgb(18, 21, 24);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#Logotipo:hover {
+    transform: perspective(100px) rotate3d(1, 0, 0, 10deg);
+}
+
+#Opciones {
+    font-size: 20px;
+}
+
+#contenedorFormulario {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    box-sizing: content-box;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(38, 63, 73);
+    background-color: rgb(198, 202, 204);
+    width: 650px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.enlacesExtra {
+    font-size: 15px;
+}

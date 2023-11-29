@@ -1,0 +1,77 @@
+body {
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/10307.jpg); 
+    background-color: rgb(18, 21, 24);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#botondiv button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 9px;
+}
+
+#botondiv:hover {
+    transform: scale(1.25);
+}
+
+#Logotipo:hover {
+    transform: perspective(100px) rotate3d(1, 0, 0, 10deg);
+}
+
+.contenedorGeneros {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    text-align: center;
+    box-sizing: content-box;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(38, 63, 73);
+    background-color: rgb(198, 202, 204);
+    width: 1100px;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.imagenes:hover {
+    transform: scale(1.1,1.1);
+}
+
+.contenedorGeneros img {
+    border-style:ridge;
+    border-color: rgb(66, 119, 143);
+    padding: 15px;
+}
+
+#Opciones {
+    font-size: 20px;
+}
+
+#Generos {
+    font-size: 40px;
+    color: white;
+}
+
+
+footer p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    box-sizing: content-box;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(38, 63, 73);
+    background-color: rgb(198, 202, 204);
+    width: 550px;
+    font-family: 'Ubuntu', sans-serif;
+}
